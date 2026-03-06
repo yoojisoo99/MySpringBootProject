@@ -13,7 +13,7 @@ public class MySpringBootApplication {
 //        SpringApplication.run(MySpringBootApplication.class, args);
 		SpringApplication application = new SpringApplication(MySpringBootApplication.class);
 		//어플리케이션 타입 설정하기
-		application.setWebApplicationType(WebApplicationType.NONE);
+		application.setWebApplicationType(WebApplicationType.SERVLET);
 		application.run(args);
 
 	}
